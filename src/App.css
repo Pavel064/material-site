@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+.mainFeaturesPost {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 4px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-overlay: "rgba(0,0,0,.3)";
+}
+
+.mainFeaturesPostContent {
+  position: relative;
+  padding: 55px;
+  margin-top: 3px;
+  margin: 15px;
+ }
+
+.cardMedia {
+  padding-top: 56.25%;
+}
+
+.cardContent {
+  flex-grow: 1;
+}
+
+.cardGrid {
+  margin-top: 4;
+}
+
+.mainContent {
+  align-content: center;
+}
