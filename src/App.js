@@ -30,6 +30,8 @@ import RestoreIcon from "@mui/icons-material/Restore";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import FolderIcon from "@mui/icons-material/Folder";
+import Fcomponent from "./components/Fcomponent";
+import Ccomponent from "./components/Ccomponent";
 
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -130,15 +132,7 @@ function App() {
                   >
                     Web Developer Blog
                   </Typography>
-                  <Typography component="h5" color="inherit" paragraph>
-                    Web Developer Blog Web Developer Blog Web Developer Blog Web
-                    Developer Blog Web Developer Blog Web Developer Blog Web
-                    Developer Blog Web Developer Blog Web Developer Blog Web
-                    Developer Blog Web Developer Blog Web Developer Blog
-                  </Typography>
-                  <Button variant="contained" color="secondary">
-                    Learn More
-                  </Button>
+                 < Fcomponent />
                 </div>
               </Grid>
             </Grid>
@@ -154,6 +148,9 @@ function App() {
             >
               WDB
             </Typography>
+
+            < Ccomponent />
+
             <Typography
               variant="h5"
               align="center"
